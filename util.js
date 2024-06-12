@@ -16,3 +16,7 @@ function eles(eles){
 function random(min,max){
     return Math.flool(Math.random() * (max - min + 1 ))  + min
 }
+
+function getStyle(ele,property){
+    return parseFloat(getComputedStyle(ele)[property])
+}
