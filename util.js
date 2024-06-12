@@ -12,3 +12,7 @@ function login(){
 function eles(eles){
     return document.querySelectorAll(eles)
 }
+
+function random(min,max){
+    return Math.flool(Math.random() * (max - min + 1 ))  + min
+}
