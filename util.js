@@ -8,3 +8,7 @@ function demo(){
 function login(){
     console.log("login");
 }
+
+function eles(eles){
+    return document.querySelectorAll(eles)
+}
